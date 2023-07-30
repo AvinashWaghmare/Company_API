@@ -9,5 +9,5 @@ def send_post_creation_notification(sender, instance, created, **kwargs):
         subject = 'New Post Created'
         message = f'A new post "{instance.title}" has been created.'
         from_email = 'aw422360@gmail.com'
-        recipient_list = [instance.author.email]  # Replace with actual recipient email address(es)
+        recipient_list = [instance.author.email]  # Replace with actual recipient email addresses
         send_mail(subject, message, from_email, recipient_list)
