@@ -32,10 +32,10 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'aw422360@gmail.com'
-EMAIL_HOST_PASSWORD = 'djangosignal'
+EMAIL_HOST_PASSWORD = 'wsuledftmxbyvjow'
 
 # Email address where you want to send the notifications
-EMAIL_NOTIFICATION_RECIPIENT = 'notification@example.com'
+EMAIL_NOTIFICATION_RECIPIENT = 'instance.athor.email'
 
 
 # Application definition
